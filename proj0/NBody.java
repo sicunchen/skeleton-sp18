@@ -32,7 +32,7 @@ public class NBody {
             }
             StdDraw.show();
             StdDraw.pause(10);
-            dt++;
+            time+=dt;
 
         }
         StdOut.printf("%d\n", planets.length);
